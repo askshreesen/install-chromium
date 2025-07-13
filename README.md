@@ -18,7 +18,5 @@ This script installs Chromium in a container, accessible via your browser from a
 ## 🛠️ One-Line Installation
 
 ```bash
-git clone https://github.com/askshreesen/install-chromium.git
-cd install-chromium
-chmod +x install.sh
-./install.sh
+git clone bash <(curl -sSL https://raw.githubusercontent.com/askshreesen/install-chromium/main/install.sh)
+
