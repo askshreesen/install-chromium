@@ -18,4 +18,4 @@ This script installs Chromium in a container, accessible via your browser from a
 ## 🛠️ One-Line Installation
 
 ```bashbash
-<(curl -sSL https://raw.githubusercontent.com/askshreesen/install-chromium/main/install.sh)
+(curl -sSL https://raw.githubusercontent.com/askshreesen/install-chromium/main/install.sh)
