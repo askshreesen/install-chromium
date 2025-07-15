@@ -51,7 +51,7 @@ services:
       - TZ=Asia/Kolkata
       - CHROME_CLI=https://google.com
     volumes:
-      - /root/chromium/config:/config
+      - ~/chromium/config:/config
     ports:
       - 3010:3000
       - 3011:3001
@@ -68,3 +68,5 @@ echo "🌐 Open your browser: http://${PUBLIC_IP}:3010"
 echo "🔐 Login:"
 echo "   Username: ${CUSTOM_USER}"
 echo "   Password: ${PASSWORD}"
+echo ""
+echo "👉 Follow on Twitter: https://twitter.com/ask_rohitsen"
